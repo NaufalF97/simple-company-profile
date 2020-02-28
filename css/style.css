@@ -1,4 +1,52 @@
 /* General */
 body {
-    font-family: "roboto";
+    font-family: 'Roboto' !important;
 }
+
+/* Homepage */
+.homepage-body {
+    background: url(../img/home-background.png);
+}
+
+.home-header {
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.home-header #comp {
+    font-size: 1.5em;
+}
+
+.home-header span {
+    font-family: 'Trade Winds';
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+.home-header h3 {
+    margin-left: 50px;
+    margin-top: -5px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.judul {
+    margin-top: 122px;
+    margin-left: 50px;
+    margin-bottom: 140px;
+}
+
+.judul h1 {
+    font-size: 4em;
+    font-family: 'Oswald';
+    color: #81d3d4;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.home-footer p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
