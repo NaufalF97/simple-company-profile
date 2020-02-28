@@ -65,6 +65,18 @@ body {
     background-image: url(../img/About-resize.jpg);
     background-position-y: -200px;
     margin-top: 100px;
+    padding: 40px 5px;
+    box-sizing: border-box;
+}
+
+.wrap-judul {
+    margin-right: 40px;
+    margin-left: 50%;
+    box-shadow: 2px 2px 10px #00000071;
+    background-color: #ffffff94;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2px;
 }
 
 #about-judul {
