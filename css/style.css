@@ -64,7 +64,8 @@ body {
 .about-us {
     background-image: url(../img/company-ilustrasi-c.jpg);
     background-position-y: -400px;
-    margin-top: 100px;
+    max-width: 100%;
+    margin-top: 0px;
     padding: 40px 10px;
     box-sizing: border-box;
 }
@@ -85,5 +86,39 @@ body {
 }
 
 .our-partner {
-    margin-top: 20px;
+    text-align: center;
+    background-image: url(../img/partner-background.png);
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    max-width: 98%;
+}
+
+.our-partner .part {
+    box-shadow: 1px 1px 5px #000000;
+    background-color: #ffffffb4;
+    border-radius: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.our-partner .part:first-child {
+    margin-left: 145px;
+}
+
+.our-partner h2 {
+    margin-bottom: 30px;
+    font-size: 3.3em;
+    text-shadow: 1px 1px 5px #00000054;
+    color: #0aa7a7;
+    font-weight: bold;
+}
+
+.about-footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #428ae7;
 }
