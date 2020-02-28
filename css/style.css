@@ -6,6 +6,8 @@ body {
 /* Homepage */
 .homepage-body {
     background: url(../img/home-background.png);
+    position: relative; 
+    object-fit: cover;   
 }
 
 .home-header {
