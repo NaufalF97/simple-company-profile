@@ -95,6 +95,11 @@ body {
     max-width: 98%;
 }
 
+.our-partner img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .our-partner .part {
     box-shadow: 1px 1px 5px #000000;
     background-color: #ffffffb4;
@@ -110,7 +115,7 @@ body {
 }
 
 .our-partner .part:first-child {
-    margin-left: 145px;
+    margin-left: 11%;
 }
 
 .our-partner h2 {
