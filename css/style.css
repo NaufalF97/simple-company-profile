@@ -62,10 +62,10 @@ body {
 
 /* About Us */
 .about-us {
-    background-image: url(../img/About-resize.jpg);
-    background-position-y: -200px;
+    background-image: url(../img/company-ilustrasi-c.jpg);
+    background-position-y: -400px;
     margin-top: 100px;
-    padding: 40px 5px;
+    padding: 40px 10px;
     box-sizing: border-box;
 }
 
@@ -76,9 +76,10 @@ body {
     background-color: #ffffff94;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 2px;
+    padding: 2px 10px;
 }
 
 #about-judul {
     font-size: 3em;
+    text-shadow: 1px 1px 5px #00000081;
 }
