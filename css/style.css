@@ -87,7 +87,6 @@ body {
 
 .our-partner {
     text-align: center;
-    background-image: url(../img/partner-background.png);
     background-color: #ffffff;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -115,7 +114,7 @@ body {
 }
 
 .our-partner .part:first-child {
-    margin-left: 11%;
+    margin-left: 10%;
 }
 
 .our-partner h2 {
