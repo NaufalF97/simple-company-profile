@@ -165,12 +165,25 @@ body {
     margin-bottom: 40px;
 }
 
-.first .part,
-.second .part {
-    text-align: center;
+.wrap-client {
     margin-bottom: 20px;
-    padding: 20px;
+    margin-left: 50px;
 }
+
+.wrap-client ul li {
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    list-style: none;
+    margin: 10px 5px;
+    box-shadow: 2px 2px 10px #000000;
+    border-radius: 20px;
+    padding: 20px 5px;
+}
+
+.wrap-client ul li:hover {
+    font-size: 1.2em;
+    transition: all 0.3s;
 
 /* Services */
 .header-svc h1 {
