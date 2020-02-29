@@ -5,7 +5,7 @@ body {
 
 /* Homepage */
 .homepage-body {
-    background: #428ae7;
+    background: #0aa7a7;
 }
 
 .background img {
@@ -104,6 +104,7 @@ body {
     background-color: #ffffffb4;
     border-radius: 20px;
     margin-right: 40px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     padding: 20px;
 }
@@ -129,6 +130,6 @@ body {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    background-color: #428ae7;
+    background-color: #0aa7a7;
     font-size: 0.8em;
 }
