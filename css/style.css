@@ -70,7 +70,8 @@ body {
     max-width: 30%;
 }
 
-#about-h1 {
+#about-h1,
+.header-visi h1 {
     text-align: right;
     color: #e7e7e7;
     text-shadow: 1px 1px 10px #000000;
@@ -163,7 +164,8 @@ body {
 
 .about-footer,
 .client-footer,
-.svc-footer {
+.svc-footer,
+.visi-footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
@@ -251,3 +253,38 @@ body {
 .service .image {
     text-align: center;
 }
+
+/* Visi & Misi */
+.body-visi {
+    background-color: #ffffff !important;
+}
+
+.visi-misi {
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.wrap-misi h3,
+.wrap-visi h3 {
+    margin-left: 20px;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+}
+
+.wrap-visi {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #000000;
+    max-width: 50%;
+    margin-left: 25%;
+    box-sizing: border-box;
+    padding: 10px 30px 20px 0;
+    margin-bottom: 50px;
+}
+
+.wrap-visi li {
+    list-style: none;
+    font-size: 1.5em;
+}
+
