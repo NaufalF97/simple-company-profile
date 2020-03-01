@@ -288,3 +288,24 @@ body {
     font-size: 1.5em;
 }
 
+.wrap-misi {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 30px 50px 50px 10px;
+    background-color: #ececec;
+}
+
+.wrap-misi img {
+    position: absolute;
+    /* z-index: -99; */
+    max-width: 48%;
+    max-height: 48%;
+    opacity: 40%;
+    bottom: -220px;
+    right: 100px;
+}
+
+.wrap-misi li {
+    margin-right: 500px;
+    margin-left: 50px;
+}
