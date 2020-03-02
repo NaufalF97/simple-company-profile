@@ -5,14 +5,29 @@ body {
 }
 
 /* Navbar */
-#main_navbar {
+.navbar {
+    background-color:#0000009c;
+    position: absolute !important;
     box-shadow: 1px 1px 5px #000000;
-    background-color: blue;
+}
+.logo {
+    text-decoration: none;
+    font-size: 2em !important;
+    font-family: 'Trade Winds';
 }
 
+.logo:hover {
+    text-decoration: none;
+}
+
+header nav ul li a:hover, header nav ul li a.active {
+	color: #FFF;
+	background: #2195f369 !important;
+}
 /* Homepage */
 .homepage-body {
     background-image: url(../img/sky-c.jpg);
+    margin-top: 0;
 }
 
 .background img {
@@ -83,7 +98,7 @@ body {
     text-shadow: 1px 1px 10px #000000;
     box-sizing: border-box;
     padding-right: 50px;
-    padding-top: 125px;
+    padding-top: 155px;
     font-size: 3.8em;
     font-weight: bold;
     margin-bottom: 30px;
@@ -181,7 +196,7 @@ body {
     text-shadow: 1px 1px 10px #000000;
     box-sizing: border-box;
     padding-right: 50px;
-    padding-top: 125px;
+    padding-top: 155px;
     font-size: 3.8em;
     font-weight: bold;
     margin-bottom: 30px;
@@ -232,7 +247,7 @@ body {
     text-shadow: 1px 1px 10px #000000;
     box-sizing: border-box;
     padding-right: 50px;
-    padding-top: 125px;
+    padding-top: 155px;
     font-size: 3.8em;
     font-weight: bold;
     margin-bottom: 30px;
@@ -321,7 +336,7 @@ body {
     text-shadow: 1px 1px 10px #000000;
     box-sizing: border-box;
     padding-right: 50px;
-    padding-top: 125px;
+    padding-top: 155px;
     font-size: 3.8em;
     font-weight: bold;
     margin-bottom: 30px;

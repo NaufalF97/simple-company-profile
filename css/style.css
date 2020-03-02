@@ -81,7 +81,8 @@ header nav ul li a {
 	padding: 0 20px;
 	color: #FFF;
 	text-decoration: none;
-	display: block;
+    display: block;
+    cursor: pointer;
 }
 
 header nav ul li a:hover, header nav ul li a.active {
