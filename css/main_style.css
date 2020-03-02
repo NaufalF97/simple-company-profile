@@ -6,7 +6,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color:#0000009c;
+    background-color:#00000071;
     position: absolute !important;
     box-shadow: 1px 1px 5px #000000;
 }
@@ -85,7 +85,7 @@ header nav ul li a:hover, header nav ul li a.active {
 /* About Us */
 .background-about {
     z-index: -99;
-    top: 220px;
+    top: 250px;
     left: 65%;
     position: absolute;
     max-width: 30%;
@@ -111,6 +111,7 @@ header nav ul li a:hover, header nav ul li a.active {
     box-shadow: 2px 2px 5px #000000;
     max-width: 60%;
     margin-left: 30px;
+    margin-top: 50px;
     border-radius: 20px;
     background: #81d3d415;
 }
