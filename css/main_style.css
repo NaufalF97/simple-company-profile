@@ -1,0 +1,409 @@
+/* General */
+body {
+    font-family: 'Roboto' !important;
+    background-color: #ececec !important;
+}
+
+/* Navbar */
+#main_navbar {
+    box-shadow: 1px 1px 5px #000000;
+    background-color: blue;
+}
+
+/* Homepage */
+.homepage-body {
+    background-image: url(../img/sky-c.jpg);
+}
+
+.background img {
+    max-width: 90%;
+    max-height: 90%;
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    opacity: 100%;
+    z-index: -999;
+}
+
+.home-header {
+    margin-top: 140px;
+    margin-left: 40px;
+}
+
+.home-header #comp {
+    font-size: 1.5em;
+}
+
+.home-header span {
+    font-family: 'Trade Winds';
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+.home-header h3 {
+    margin-left: 50px;
+    margin-top: -5px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.judul {
+    margin-top: 122px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+
+.judul h1 {
+    font-size: 4em;
+    font-family: 'Oswald';
+    color: #81d3d4;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+.home-footer p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+/* About Us */
+.background-about {
+    z-index: -99;
+    top: 220px;
+    left: 65%;
+    position: absolute;
+    max-width: 30%;
+}
+
+#about-h1,
+.header-visi h1 {
+    text-align: right;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #000000;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 125px;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-image: url(../img/sky-c.jpg);
+    background-position-y: -170px;
+}
+
+.header-about {
+    box-shadow: 2px 2px 5px #000000;
+    max-width: 60%;
+    margin-left: 30px;
+    border-radius: 20px;
+    background: #81d3d415;
+}
+
+.header-about h3 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+}
+
+.header-about p {
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.wrap-judul {
+    margin-right: 40px;
+    margin-left: 50%;
+    box-shadow: 2px 2px 10px #00000071;
+    background-color: #ffffff57;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 2px 10px;
+}
+
+#about-judul {
+    font-size: 3em;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #00000081;
+}
+
+.partner-box {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 20px 20px 0 0;
+    background-color: #e7e7e7;
+    box-shadow: 1px 1px 10px #000000;
+    padding: 20px
+}
+
+.partner-box h2 {
+    font-size: 3.3em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+    font-weight: bold;
+}
+
+.partner-box .partner-row .partners img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.partner-box .partner-row .partners {
+    box-shadow: 1px 1px 5px #000000;
+    padding: 10px;
+    border-radius: 40px 0 40px 0;
+}
+
+.partner-col {
+    margin-bottom: 20px;
+}
+
+.about-footer,
+.client-footer,
+.svc-footer,
+.visi-footer,
+.contact-footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #81d3d4;
+    font-size: 0.8em;
+}
+
+/* Clients */
+.header-client h1 {
+    text-align: right;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #000000;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 125px;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-image: url(../img/handshake-c.jpg);
+    background-position-y: -170px;
+}
+
+.header-client h3 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+}
+
+.header-client p {
+    margin-left: 20px;
+    margin-right: 50%;
+    margin-bottom: 40px;
+}
+
+.client-box {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.client-box img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.client-box .client-col {
+    margin-bottom: 20px;
+}
+
+.client-box .clients {
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 40px 0 40px 0;
+    padding: 10px;
+}
+
+/* Services */
+.header-svc {
+    text-align: right;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #000000;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 125px;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-image: url(../img/sky-c.jpg);
+    background-position-y: -170px;
+}
+
+.service {
+    margin-top: 50px;
+}
+
+.service .row {
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 10px #000000;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.service .image {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Visi & Misi */
+.body-visi {
+    background-color: #ffffff !important;
+}
+
+.visi-misi {
+    text-align: center;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.wrap-misi h3,
+.wrap-visi h3 {
+    margin-left: 20px;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+}
+
+.wrap-visi {
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #000000;
+    max-width: 50%;
+    margin-left: 25%;
+    box-sizing: border-box;
+    padding: 10px 30px 20px 0;
+    margin-bottom: 50px;
+}
+
+.wrap-visi li {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.wrap-misi {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 30px 50px 50px 10px;
+    background-color: #ececec;
+}
+
+.wrap-misi img {
+    position: absolute;
+    max-width: 48%;
+    max-height: 48%;
+    opacity: 40%;
+    bottom: -220px;
+    right: 100px;
+}
+
+.wrap-misi li {
+    margin-right: 500px;
+    margin-left: 50px;
+}
+
+/* Contact Us */
+#header-contact {
+    text-align: right;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #000000;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 125px;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-image: url(../img/sky-c.jpg);
+    background-position-y: -170px;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact .form h3 {
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+}
+
+.contact form {
+    box-shadow: 2px 2px 10px #000000;
+    padding: 20px 10px 30px 10px;
+    border-radius: 20px;
+    background-color: #ffffff6b;
+}
+
+.wrap-form {
+    margin-left: 40px;
+}
+
+.wrap-form label {
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.wrap-form input {
+    margin-bottom: 15px;
+    width: 70%;
+    height: 2.5em;
+    line-height: 2.5em;
+    box-shadow: 1px 1px 2px #000000;
+    border-radius: 5px;
+}
+
+.wrap-form input:focus {
+    border-color: #81d3d4;
+    transition: all 0.2s;
+}
+
+.contact form button {
+    margin-left: 40px;
+}
+
+.contact_us a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.contact_us a:hover {
+    text-decoration: none;
+    color: #81d3d4;
+    font-size: 1.1em;
+    transition: all 0.2s;
+}
+
+.contact_us p {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.contact_us h3 {
+    color: #81d3d4;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.contact_us {
+    padding-top: 60px;
+}

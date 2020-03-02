@@ -1,409 +1,143 @@
-/* General */
 body {
-    font-family: 'Roboto' !important;
-    background-color: #ececec !important;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed';
+	background: #C1C1C1;
 }
 
-/* Navbar */
-#main_navbar {
-    box-shadow: 1px 1px 5px #000000;
-    background-color: blue;
+/* Header */
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0 100px;
+	background: #262626;
+	width: 100%;
+	box-sizing: border-box;
 }
 
-/* Homepage */
-.homepage-body {
-    background-image: url(../img/sky-c.jpg);
+/* LOGO */
+header .logo {
+	color: #FFF;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
 }
 
-.background img {
-    max-width: 90%;
-    max-height: 90%;
-    position: absolute;
-    right: 10px;
-    top: 10%;
-    opacity: 100%;
-    z-index: -999;
+/* Dropdown Nav */
+header nav {
+	float: right;
 }
 
-.home-header {
-    margin-top: 140px;
-    margin-left: 40px;
+/* UL */
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
 }
 
-.home-header #comp {
-    font-size: 1.5em;
+/* Nav Items */
+header nav ul li {
+	list-style: none;
+	position: relative;
 }
 
-.home-header span {
-    font-family: 'Trade Winds';
-    font-size: 2.5em;
-    color: #ffffff;
-    text-shadow: 2px 2px 10px #000000;
+/* Sub-menu */
+header nav ul li.sub-menu:before {
+	content: '\f0d7';
+	font-family: fontAwesome;
+	position: absolute;
+	line-height: 50px;
+	color: #FFF;
+	right: 5px;
+	cursor: pointer;
 }
 
-.home-header h3 {
-    margin-left: 50px;
-    margin-top: -5px;
-    font-style: italic;
-    text-shadow: 1px 1px 2px #000000;
+header nav ul li.active.sub-menu:before {
+	content: '\f0d8';
 }
 
-.judul {
-    margin-top: 122px;
-    margin-left: 50px;
-    margin-bottom: 70px;
+header nav ul li ul {
+	position: absolute;
+	left: 0;
+	background: #333;
+	display: none;
 }
 
-.judul h1 {
-    font-size: 4em;
-    font-family: 'Oswald';
-    color: #81d3d4;
-    text-shadow: 1px 1px 5px #000000;
+header nav ul li.active ul {
+	display: block;
 }
 
-.home-footer p {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 0.8em;
+header nav ul li ul li {
+	display: block;
+	width: 200px;
 }
 
-/* About Us */
-.background-about {
-    z-index: -99;
-    top: 220px;
-    left: 65%;
-    position: absolute;
-    max-width: 30%;
+header nav ul li a {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
 }
 
-#about-h1,
-.header-visi h1 {
-    text-align: right;
-    color: #e7e7e7;
-    text-shadow: 1px 1px 10px #000000;
-    box-sizing: border-box;
-    padding-right: 50px;
-    padding-top: 125px;
-    font-size: 3.8em;
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    background-image: url(../img/sky-c.jpg);
-    background-position-y: -170px;
+header nav ul li a:hover, header nav ul li a.active {
+	color: #FFF;
+	background: #2196f3;
 }
 
-.header-about {
-    box-shadow: 2px 2px 5px #000000;
-    max-width: 60%;
-    margin-left: 30px;
-    border-radius: 20px;
-    background: #81d3d415;
+/* Toggle Button */
+.menu-toggle {
+	color: #FFF;
+	float: right;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	display: none;
 }
 
-.header-about h3 {
-    margin-left: 20px;
-    font-size: 2.5em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-}
+/* Media Queries */
+@media (max-width: 991px) {
+	header {
+		padding: 0 20px;
+	}
 
-.header-about p {
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
+	.menu-toggle {
+		display: block;
+	}
 
-.wrap-judul {
-    margin-right: 40px;
-    margin-left: 50%;
-    box-shadow: 2px 2px 10px #00000071;
-    background-color: #ffffff57;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 2px 10px;
-}
+	header nav {
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+	}
 
-#about-judul {
-    font-size: 3em;
-    color: #e7e7e7;
-    text-shadow: 1px 1px 10px #00000081;
-}
+	header nav.active {
+		left: 0;
+	}
 
-.partner-box {
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 80px;
-    border-radius: 20px 20px 0 0;
-    background-color: #e7e7e7;
-    box-shadow: 1px 1px 10px #000000;
-    padding: 20px
-}
+	header nav ul {
+		display: block;
+		text-align: center;
+	}
 
-.partner-box h2 {
-    font-size: 3.3em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-    font-weight: bold;
-}
+	header nav ul li a {
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
 
-.partner-box .partner-row .partners img {
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 10px;
-}
+	header nav ul li.active ul {
+		position: relative;
+		background: #003e6f;
+	}
 
-.partner-box .partner-row .partners {
-    box-shadow: 1px 1px 5px #000000;
-    padding: 10px;
-    border-radius: 40px 0 40px 0;
-}
-
-.partner-col {
-    margin-bottom: 20px;
-}
-
-.about-footer,
-.client-footer,
-.svc-footer,
-.visi-footer,
-.contact-footer {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    background-color: #81d3d4;
-    font-size: 0.8em;
-}
-
-/* Clients */
-.header-client h1 {
-    text-align: right;
-    color: #e7e7e7;
-    text-shadow: 1px 1px 10px #000000;
-    box-sizing: border-box;
-    padding-right: 50px;
-    padding-top: 125px;
-    font-size: 3.8em;
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    background-image: url(../img/handshake-c.jpg);
-    background-position-y: -170px;
-}
-
-.header-client h3 {
-    margin-left: 20px;
-    font-size: 2.5em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-}
-
-.header-client p {
-    margin-left: 20px;
-    margin-right: 50%;
-    margin-bottom: 40px;
-}
-
-.client-box {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.client-box img {
-    max-width: 200px;
-    max-height: 200px;
-    margin-bottom: 10px;
-}
-
-.client-box .client-col {
-    margin-bottom: 20px;
-}
-
-.client-box .clients {
-    box-shadow: 1px 1px 5px #000000;
-    border-radius: 40px 0 40px 0;
-    padding: 10px;
-}
-
-/* Services */
-.header-svc {
-    text-align: right;
-    color: #e7e7e7;
-    text-shadow: 1px 1px 10px #000000;
-    box-sizing: border-box;
-    padding-right: 50px;
-    padding-top: 125px;
-    font-size: 3.8em;
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    background-image: url(../img/sky-c.jpg);
-    background-position-y: -170px;
-}
-
-.service {
-    margin-top: 50px;
-}
-
-.service .row {
-    margin-bottom: 30px;
-    margin-right: 10px;
-    margin-left: 10px;
-    box-shadow: 2px 2px 10px #000000;
-    border-radius: 20px;
-    padding: 20px 0;
-}
-
-.service .image {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Visi & Misi */
-.body-visi {
-    background-color: #ffffff !important;
-}
-
-.visi-misi {
-    text-align: center;
-    box-shadow: 2px 2px 5px #000000;
-}
-
-.wrap-misi h3,
-.wrap-visi h3 {
-    margin-left: 20px;
-    font-size: 3.5em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-}
-
-.wrap-visi {
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px #000000;
-    max-width: 50%;
-    margin-left: 25%;
-    box-sizing: border-box;
-    padding: 10px 30px 20px 0;
-    margin-bottom: 50px;
-}
-
-.wrap-visi li {
-    list-style: none;
-    font-size: 1.5em;
-}
-
-.wrap-misi {
-    text-align: left;
-    margin-bottom: 0;
-    padding: 30px 50px 50px 10px;
-    background-color: #ececec;
-}
-
-.wrap-misi img {
-    position: absolute;
-    max-width: 48%;
-    max-height: 48%;
-    opacity: 40%;
-    bottom: -220px;
-    right: 100px;
-}
-
-.wrap-misi li {
-    margin-right: 500px;
-    margin-left: 50px;
-}
-
-/* Contact Us */
-#header-contact {
-    text-align: right;
-    color: #e7e7e7;
-    text-shadow: 1px 1px 10px #000000;
-    box-sizing: border-box;
-    padding-right: 50px;
-    padding-top: 125px;
-    font-size: 3.8em;
-    font-weight: bold;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    background-image: url(../img/sky-c.jpg);
-    background-position-y: -170px;
-}
-
-.contact {
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.contact .form h3 {
-    text-align: center;
-    font-size: 2.5em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-}
-
-.contact form {
-    box-shadow: 2px 2px 10px #000000;
-    padding: 20px 10px 30px 10px;
-    border-radius: 20px;
-    background-color: #ffffff6b;
-}
-
-.wrap-form {
-    margin-left: 40px;
-}
-
-.wrap-form label {
-    display: block;
-    margin-bottom: 0;
-    font-size: 1.2em;
-}
-
-.wrap-form input {
-    margin-bottom: 15px;
-    width: 70%;
-    height: 2.5em;
-    line-height: 2.5em;
-    box-shadow: 1px 1px 2px #000000;
-    border-radius: 5px;
-}
-
-.wrap-form input:focus {
-    border-color: #81d3d4;
-    transition: all 0.2s;
-}
-
-.contact form button {
-    margin-left: 40px;
-}
-
-.contact_us a {
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 60px;
-    margin-bottom: 10px;
-    color: #000000;
-}
-
-.contact_us a:hover {
-    text-decoration: none;
-    color: #81d3d4;
-    font-size: 1.1em;
-    transition: all 0.2s;
-}
-
-.contact_us p {
-    display: inline-block;
-    margin-left: 5px;
-}
-
-.contact_us h3 {
-    color: #81d3d4;
-    text-shadow: 1px 1px 2px #000000;
-    font-size: 2em;
-    margin-left: 30px;
-}
-
-.contact_us {
-    padding-top: 60px;
+	header nav ul li ul li {
+		width: 100%;
+	}
 }

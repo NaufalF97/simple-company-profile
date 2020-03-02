@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main_style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -10,102 +12,97 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Contact | Comrades.inc</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
-        <a class="navbar-brand" href="home.html">Comrades.inc</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="visi-misi.html">Vision & Mission</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="services.html">Our Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="client.html">Our Clients</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-    
-        <h1 id="header-contact">Contact Us</h1>
-        <div class="container contact">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 form">
-                    <form action="#" method="POST">
-                        <h3>Keep in touch with us!</h3> <br>
-                        <div class="wrap-form">
-                            <label for="">Name</label>
-                            <input type="text" placeholder="type your name" name="nama"><br>
+    <header>
+        <!-- <div class="logo">Comrades.inc</div> -->
+        <a href="home.html" class="logo">Comrades.inc</a>
+        <nav>
+            <ul>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="visi-misi.html">Vision & Mission</a></li>
+                <li><a href="services.html">Our Service</a></li>
+                <li><a href="client.html">Our Clients</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                            <label for="">Date of Birth</label>
-                            <input type="date" name="dob"><br>
+    <h1 id="header-contact">Contact Us</h1>
+    <div class="container contact">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 form">
+                <form action="#" method="POST">
+                    <h3>Keep in touch with us!</h3> <br>
+                    <div class="wrap-form">
+                        <label for="">Name</label>
+                        <input type="text" placeholder="type your name" name="nama"><br>
 
-                            <label for="">Email</label>
-                            <input type="email" name="email" placeholder="ex. yourname@yourmail.com"><br>
+                        <label for="">Date of Birth</label>
+                        <input type="date" name="dob"><br>
 
-                            <label for="">Password</label>
-                            <input type="password" name="pass" minlength="6" placeholder="min 6 characters"><br>
+                        <label for="">Email</label>
+                        <input type="email" name="email" placeholder="ex. yourname@yourmail.com"><br>
 
-                            <label for="">Telp</label>
-                            <input type="tel" name="tel"><br>
-                        </div>
+                        <label for="">Password</label>
+                        <input type="password" name="pass" minlength="6" placeholder="min 6 characters"><br>
 
-                        <button type="button" class="btn btn-primary">Sign Up!</button>
-                    </form>
-                </div>
+                        <label for="">Telp</label>
+                        <input type="tel" name="tel"><br>
+                    </div>
 
-                <div class="col-md-6 col-sm-12 contact_us">
-                    <h3>Contact Us</h3>
-                    <a href="tel:034180***">
-                        <i class="fa fas fa-phone-square fa-2x"></i> <p>(0341) 80****</p>
-                    </a> 
-                    <br>
-                    <a href="mailto: comrades.inc@mymail.com">
-                        <i class="fa fas fa-envelope fa-2x"></i> <p>comrades.inc@mymail.com</p>
-                    </a> 
-                    <br>
-                    <a href="https://www.google.com/maps/" target="_blank">
-                        <i class="fa fas fa-map-marker-alt fa-2x"></i> <p>12nd Somewhere st. Another City, Another Country.</p>
-                    </a>
-                    <br>
-                    <br>
-                    
-                    <h3>Follow Our Social Media</h3>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <i class="fa fab fa-facebook fa-2x"></i> <p>Comrades.inc</p> 
-                    </a> 
-                    <br>
-                    <a href="https://www.instagram.com" target="_blank">
-                        <i class="fa fab fa-instagram fa-2x"></i> <p>@comrades.inc</p>
-                    </a> 
-                    <br>
-                    <a href="https://www.linkedin.com" target="_blank">
-                        <i class="fa fab fa-linkedin fa-2x"></i> <p>Comrades.inc</p>
-                    </a> 
-                    <br>
-                </div>
+                    <button type="button" class="btn btn-primary">Sign Up!</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 col-sm-12 contact_us">
+                <h3>Contact Us</h3>
+                <a href="tel:034180***">
+                    <i class="fa fas fa-phone-square fa-2x"></i>
+                    <p>(0341) 80****</p>
+                </a>
+                <br>
+                <a href="mailto: comrades.inc@mymail.com">
+                    <i class="fa fas fa-envelope fa-2x"></i>
+                    <p>comrades.inc@mymail.com</p>
+                </a>
+                <br>
+                <a href="https://www.google.com/maps/" target="_blank">
+                    <i class="fa fas fa-map-marker-alt fa-2x"></i>
+                    <p>12nd Somewhere st. Another City, Another Country.</p>
+                </a>
+                <br>
+                <br>
+
+                <h3>Follow Our Social Media</h3>
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fab fa-facebook fa-2x"></i>
+                    <p>Comrades.inc</p>
+                </a>
+                <br>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fab fa-instagram fa-2x"></i>
+                    <p>@comrades.inc</p>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <i class="fa fab fa-linkedin fa-2x"></i>
+                    <p>Comrades.inc</p>
+                </a>
+                <br>
             </div>
         </div>
-    
+    </div>
+
 
     <footer class="contact-footer">
-        <p>&copy; 2020 All Rights Reserved | Comrades Company </p> 
+        <p>&copy; 2020 All Rights Reserved | Comrades Company </p>
     </footer>
 
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/theme.js"></script>
 </body>
+
 </html>
