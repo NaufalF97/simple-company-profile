@@ -123,7 +123,36 @@ body {
     text-shadow: 1px 1px 10px #00000081;
 }
 
-.wrap-partner {
+.partner-box {
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.partner-box h2 {
+    font-size: 3.3em;
+    text-shadow: 1px 1px 2px #000000;
+    color: #81d3d4;
+    font-weight: bold;
+}
+
+.partner-box .partner-row .partners img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.partner-box .partner-row .partners {
+    box-shadow: 1px 1px 5px #000000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.partner-col {
+    margin-bottom: 20px;
+}
+/* .wrap-partner {
     text-align: center;
     background-color: #ffffff;
     padding-top: 50px;
@@ -160,7 +189,7 @@ body {
     text-shadow: 1px 1px 2px #000000;
     color: #81d3d4;
     font-weight: bold;
-}
+} */
 
 .about-footer,
 .client-footer,
