@@ -10,9 +10,13 @@ body {
     position: absolute !important;
     box-shadow: 1px 1px 5px #000000;
 }
+
+.navbar li a {
+    font-size: 1.2em;
+}
 .logo {
     text-decoration: none;
-    font-size: 2em !important;
+    font-size: 2.2em !important;
     font-family: 'Trade Winds';
 }
 
@@ -22,7 +26,8 @@ body {
 
 header nav ul li a:hover, header nav ul li a.active {
 	color: #FFF;
-	background: #2195f369 !important;
+    background: #2195f369 !important;
+    text-decoration: none !important;
 }
 /* Homepage */
 .homepage-body {
