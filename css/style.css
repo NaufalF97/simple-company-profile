@@ -152,44 +152,6 @@ body {
 .partner-col {
     margin-bottom: 20px;
 }
-/* .wrap-partner {
-    text-align: center;
-    background-color: #ffffff;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    box-sizing: border-box;
-    max-width: 98%;
-    margin-left: 13px;
-    box-shadow: 2px 2px 5px #000000;
-}
-
-.wrap-partner img {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.wrap-partner ul li {
-    list-style: none;
-    max-width: 30%;
-    display: inline-block;
-    margin: 30px 5px;
-    box-shadow: 2px 2px 10px #000000;
-    padding: 24px 5px 10px 5px;
-    border-radius: 20px;
-}
-
-.wrap-partner ul li:hover {
-    font-size: 1.1em;
-    transition: all 0.3s;
-}
-
-.wrap-partner h2 {
-    
-    font-size: 3.3em;
-    text-shadow: 1px 1px 2px #000000;
-    color: #81d3d4;
-    font-weight: bold;
-} */
 
 .about-footer,
 .client-footer,
