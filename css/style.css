@@ -11,7 +11,7 @@ header {
 	top: 0;
 	left: 0;
 	padding: 0 100px;
-	background: #262626;
+	background: #26262667;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -62,7 +62,7 @@ header nav ul li.active.sub-menu:before {
 header nav ul li ul {
 	position: absolute;
 	left: 0;
-	background: #333;
+	background: rgba(51, 51, 51, 0.63);
 	display: none;
 }
 
@@ -112,12 +112,13 @@ header nav ul li a:hover, header nav ul li a.active {
 
 	header nav {
 		position: absolute;
-		width: 100%;
-		height: calc(100vh - 50px);
-		background: #333;
-		top: 50px;
+		width: 70%;
+        height: calc(147vh - 50px);
+		background: #333333f8;
+		top: 0px;
 		left: -100%;
-		transition: 0.5s;
+        transition: 0.5s;
+        z-index: 999;
 	}
 
 	header nav.active {
