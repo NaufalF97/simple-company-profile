@@ -4,6 +4,12 @@ body {
     background-color: #ececec !important;
 }
 
+/* Navbar */
+#main_navbar {
+    box-shadow: 1px 1px 5px #000000;
+    background-color: blue;
+}
+
 /* Homepage */
 .homepage-body {
     background-image: url(../img/sky-c.jpg);
