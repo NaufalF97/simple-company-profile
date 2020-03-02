@@ -8,14 +8,45 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald|Oxanium|Roboto|Trade+Winds&display=swap"
-        rel="stylesheet">
-
-
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <title>Home | Comrades.inc</title>
 </head>
 
 <body class="homepage-body">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main_navbar">
+        <a class="navbar-brand" href="home.html">Comrades.inc</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item active">
+              <a class="nav-link" href="home.html">About <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="visi-misi.html">Vision & Mission</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">Our Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="client.html">Our Clients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+      
     <div class="background">
         <img src="img/background2.png" alt="">
     </div>
@@ -37,6 +68,13 @@
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script type="text/javascript">
+            $(function () {
+        $('#main_navbar').bootnavbar();
+        })
+
+    </script>
 </body>
 
 </html>
