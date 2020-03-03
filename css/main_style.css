@@ -9,13 +9,26 @@ body {
 /* Navbar */
 .navbar {
     background-color:#00000071;
-    position: absolute !important;
+    position: fixed !important;
     box-shadow: 1px 1px 5px #000000;
+    z-index: 9999;
 }
 
 .navbar li a {
     font-size: 1.2em;
 }
+
+.navbar li .active {
+    background-color: #81d3d4cb !important;
+    font-size: 1.3em;
+}
+
+.navbar li a:hover {
+    background-color: #81d3d4cb !important;
+    font-size: 1.3em !important;
+    transition: all 0.2s;
+}
+
 .logo {
     text-decoration: none;
     font-size: 2.2em !important;
@@ -24,6 +37,11 @@ body {
 
 .logo:hover {
     text-decoration: none;
+    color: #81d3d4;
+}
+
+.logo:focus {
+    font-size: 2em !important;
 }
 
 header nav ul li a:hover, header nav ul li a.active {
@@ -67,7 +85,7 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 .judul {
-    margin-top: 252px;
+    margin-top: 272px;
     margin-left: 50px;
     margin-bottom: 90px;
 }
@@ -95,7 +113,7 @@ header nav ul li a:hover, header nav ul li a.active {
 /* About Us */
 .background-about {
     z-index: -99;
-    top: 250px;
+    top: 260px;
     left: 65%;
     position: absolute;
     max-width: 30%;
@@ -113,8 +131,9 @@ header nav ul li a:hover, header nav ul li a.active {
     font-weight: bold;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    background-image: url(../img/sky-c.jpg);
-    background-position-y: -170px;
+    background-image: url(../img/undraw_next_tasks_iubr-c.png);
+    background-position-y: -90px;
+    background-position-x: -250px;
 }
 
 .header-about {
@@ -124,6 +143,7 @@ header nav ul li a:hover, header nav ul li a.active {
     margin-top: 50px;
     border-radius: 20px;
     background: #81d3d415;
+    padding: 20px 5px;
 }
 
 .header-about h3 {
@@ -162,7 +182,7 @@ header nav ul li a:hover, header nav ul li a.active {
     border-radius: 20px 20px 0 0;
     background-color: #e7e7e7;
     box-shadow: 1px 1px 10px #000000;
-    padding: 20px
+    padding: 20px;
 }
 
 .partner-box h2 {
@@ -179,9 +199,10 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 .partner-box .partner-row .partners {
-    box-shadow: 1px 1px 5px #000000;
+    box-shadow: 1px 1px 8px #000000;
     padding: 10px;
     border-radius: 40px 0 40px 0;
+    background-color: #ffffffd3;
 }
 
 .partner-col {
@@ -441,6 +462,16 @@ header nav ul li a:hover, header nav ul li a.active {
         width: 60%;
         height: 50%;
     }
+
+    .background-about {
+        opacity: 0;
+    }
+
+    .header-about {
+        max-width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 670px) {
@@ -512,6 +543,10 @@ header nav ul li a:hover, header nav ul li a.active {
     .homepage-body .judul {
         font-size: 0.8em;
         margin-bottom: 100px;
+    }
+
+    #about-h1 {
+        font-size: 3em;
     }
 }
 
