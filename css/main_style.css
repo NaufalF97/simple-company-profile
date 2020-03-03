@@ -119,8 +119,7 @@ header nav ul li a:hover, header nav ul li a.active {
     max-width: 30%;
 }
 
-#about-h1,
-.header-visi h1 {
+#about-h1 {
     text-align: right;
     color: #e7e7e7;
     text-shadow: 1px 1px 10px #000000;
@@ -307,6 +306,22 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 /* Visi & Misi */
+.header-visi {
+    text-align: right;
+    color: #e7e7e7;
+    text-shadow: 1px 1px 10px #000000;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 155px;
+    font-size: 3.8em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    background-image: url(../img/undraw_teaching_f1cm-c.png);
+    background-position-y: -90px;
+    background-position-x: -350px;
+}
+
 .body-visi {
     background-color: #ffffff !important;
 }
@@ -490,7 +505,7 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     .homepage-body .judul {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
@@ -523,7 +538,6 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     .homepage-body .judul {
-        font-size: 0.9em;
         margin-top: 100px;
         margin-bottom: 90px;
     }
@@ -541,7 +555,7 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     .homepage-body .judul {
-        font-size: 0.8em;
+        font-size: 0.5em;
         margin-bottom: 100px;
     }
 
