@@ -545,6 +545,7 @@ header nav ul li a:hover, header nav ul li a.active {
     .homepage-body .judul {
         margin-top: 100px;
         margin-bottom: 90px;
+        margin-left: 50px;
     }
     
     /* About US */
@@ -571,11 +572,13 @@ header nav ul li a:hover, header nav ul li a.active {
 
     .home-header h3 {
         margin-left: -20px;
+        margin-bottom: 130px;
     }
 
     .homepage-body .judul {
-        font-size: 0.5em;
+        font-size: 0.6em;
         margin-bottom: 100px;
+        margin-left: 20px;
     }
 }
 
