@@ -87,7 +87,7 @@ header nav ul li a {
 
 header nav ul li a:hover, header nav ul li a.active {
 	color: #FFF;
-	background: #2196f3;
+	background: #81d3d4;
 }
 
 /* Toggle Button */
@@ -101,7 +101,7 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 /* Media Queries */
-@media (max-width: 991px) {
+@media (max-width: 1020px) {
 	header {
 		padding: 0 20px;
 	}
@@ -136,7 +136,7 @@ header nav ul li a:hover, header nav ul li a.active {
 
 	header nav ul li.active ul {
 		position: relative;
-		background: #003e6f;
+		background: #81d3d4;
 	}
 
 	header nav ul li ul li {
