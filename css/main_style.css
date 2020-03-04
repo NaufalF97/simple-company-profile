@@ -547,6 +547,18 @@ header nav ul li a:hover, header nav ul li a.active {
         margin-bottom: 90px;
         margin-left: 50px;
     }
+
+    /* Visi Misi */
+    .wrap-visi {
+        padding: 2px;
+        text-align: center;
+    }
+
+    .wrap-visi li {
+        margin-right: 2px;
+        margin-left: -32px;
+        font-size: 1em;
+    }
     
     /* About US */
     #about-h1 {
