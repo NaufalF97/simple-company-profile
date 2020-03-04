@@ -232,8 +232,9 @@ header nav ul li a:hover, header nav ul li a.active {
     font-weight: bold;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    background-image: url(../img/handshake-c.jpg);
+    background-image: url(../img/undraw_interview_rmcf-c.png);
     background-position-y: -170px;
+    background-position-x: -430px;
 }
 
 .header-client h3 {
@@ -556,6 +557,13 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     /* Visi Misi */
+    .header-visi h1 {
+        font-size: 3em;
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
     .wrap-visi {
         padding: 2px;
         text-align: center;
@@ -574,19 +582,20 @@ header nav ul li a:hover, header nav ul li a.active {
         padding-right: 5%;
     }
 
-    /* Visi-misi */
-    .header-visi h1 {
-        font-size: 3em;
-        text-align: center;
-        padding-left: 60px;
-        padding-right: 10px;
-    }
-
     /* Services */
     .header-svc {
         text-align: left;
         font-size: 3em;
         padding-left: 50%;
+    }
+
+    /* Client */
+    .header-client h1 {
+        font-size: 3em;
+        text-align: left;
+        padding-left: 58%;
+        padding-right: 5%;
+
     }
 }
 
