@@ -513,6 +513,12 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 }
 
+@media (max-width: 991px) {
+    .service h3 {
+        text-align: center;
+    }
+}
+
 @media (max-width: 515px) {
     /* Homepage */
     .homepage-body .home-header h2 {
@@ -580,7 +586,7 @@ header nav ul li a:hover, header nav ul li a.active {
     .header-svc {
         text-align: left;
         font-size: 3em;
-        padding-left: 40%;
+        padding-left: 50%;
     }
 }
 
