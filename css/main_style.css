@@ -208,7 +208,7 @@ header nav ul li a:hover, header nav ul li a.active {
     border-radius: 40px 0 40px 0;
     background-color: #ffffff56;
     transform: translateY(-50px);
-    transition: all 1s;
+    transition: all 0.5s;
     opacity: 0;
 }
 
@@ -286,21 +286,39 @@ header nav ul li a:hover, header nav ul li a.active {
     margin-bottom: 20px;
 }
 
-.client-box .clients {
+.client-box .clients-upper {
     box-shadow: 1px 1px 5px #000000;
     border-radius: 40px 0 40px 0;
     padding: 10px;
     opacity: 0;
-    transform: translateY(-50px);
+    transform: translateX(-50px);
     transition: all 0.5s;
 }
 
-.client-box .clients.muncul {
+.client-box .clients-upper.muncul {
     box-shadow: 1px 1px 5px #000000;
     border-radius: 40px 0 40px 0;
     padding: 10px;
     opacity: 1;
-    transform: translateY(0);
+    transform: translateX(0);
+    text-align: center;
+}
+
+.client-box .clients-lower {
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 40px 0 40px 0;
+    padding: 10px;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.5s;
+}
+
+.client-box .clients-lower.muncul {
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 40px 0 40px 0;
+    padding: 10px;
+    opacity: 1;
+    transform: translateX(0);
     text-align: center;
 }
 
