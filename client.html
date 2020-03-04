@@ -58,7 +58,7 @@
                     <p>Project: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 client-col">
+            <div class="col-lg-4 col-md-6 col-xs-12 client-col">
                 <div class="clients">
                     <img src="img/company.jpg" alt="">
                     <h3>Lorem Ipsum</h3>
@@ -90,5 +90,18 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            var winScroll = $(this).scrollTop();
+
+            if(winScroll > $('.client-box').offset().top - 250) {
+                $('.client-box .clients').each(function (i) {
+                    setTimeout(function () {
+                        $('.client-box .clients').eq(i).addClass('muncul');
+                    }, 300 * (i))
+                })
+            }
+        })
+    </script>
 </body>
 </html>

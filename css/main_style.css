@@ -282,7 +282,7 @@ header nav ul li a:hover, header nav ul li a.active {
     margin-bottom: 10px;
 }
 
-.client-box .client-col {
+.client-box .client-col .muncul {
     margin-bottom: 20px;
 }
 
@@ -290,6 +290,18 @@ header nav ul li a:hover, header nav ul li a.active {
     box-shadow: 1px 1px 5px #000000;
     border-radius: 40px 0 40px 0;
     padding: 10px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 0.5s;
+}
+
+.client-box .clients.muncul {
+    box-shadow: 1px 1px 5px #000000;
+    border-radius: 40px 0 40px 0;
+    padding: 10px;
+    opacity: 1;
+    transform: translateY(0);
+    text-align: center;
 }
 
 /* Services */
