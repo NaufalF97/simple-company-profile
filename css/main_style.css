@@ -381,8 +381,9 @@ header nav ul li a:hover, header nav ul li a.active {
     font-weight: bold;
     margin-bottom: 30px;
     padding-bottom: 15px;
-    background-image: url(../img/sky-c.jpg);
-    background-position-y: -170px;
+    background-image: url(../img/undraw_contact_us_15o2-c.png);
+    background-position-y: -240px;
+    background-position-x: -200px;
 }
 
 .contact {
@@ -606,8 +607,8 @@ header nav ul li a:hover, header nav ul li a.active {
     .header-client h1 {
         font-size: 3em;
         text-align: left;
-        padding-left: 58%;
-        padding-right: 5%;
+        padding-left: 40%;
+        padding-right: 1%;
     }
 }
 
@@ -642,5 +643,15 @@ header nav ul li a:hover, header nav ul li a.active {
     /* Homepage */
     .homepage-body .judul {
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width:325px) {
+    /* Client */
+    .header-client h1 {
+        font-size: 3em;
+        text-align: left;
+        padding-left: 30%;
+        padding-right: 5px;
     }
 }
