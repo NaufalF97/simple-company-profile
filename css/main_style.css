@@ -202,11 +202,24 @@ header nav ul li a:hover, header nav ul li a.active {
     margin-bottom: 10px;
 }
 
-.partner-box .partner-row .partners {
+.partner-box .partners {
     box-shadow: 1px 1px 8px #000000;
     padding: 10px;
     border-radius: 40px 0 40px 0;
     background-color: #ffffff56;
+    transform: translateY(-40px);
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.partner-box .partners.muncul {
+    box-shadow: 1px 1px 8px #000000;
+    padding: 10px;
+    border-radius: 40px 0 40px 0;
+    background-color: #ffffff56;
+    float: left;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .partner-col {
