@@ -592,9 +592,10 @@ header nav ul li a:hover, header nav ul li a.active {
 
     /* Services */
     .header-svc {
-        text-align: left;
+        text-align: right;
         font-size: 3em;
-        padding-left: 50%;
+        padding-right: 2%;
+
     }
 
     /* Client */
