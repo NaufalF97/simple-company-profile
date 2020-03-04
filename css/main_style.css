@@ -617,6 +617,11 @@ header nav ul li a:hover, header nav ul li a.active {
         padding-right: 10px;
         padding-left: 9%;
     }
+
+    .contact_us {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 400px) {
@@ -643,6 +648,17 @@ header nav ul li a:hover, header nav ul li a.active {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /* Contact Us */
+    .wrap-form {
+        padding-left: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact input {
+        width: 100%;
     }
 }
 
