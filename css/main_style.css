@@ -564,6 +564,8 @@ header nav ul li a:hover, header nav ul li a.active {
     /* About US */
     #about-h1 {
         font-size: 3em;
+        padding-left: 20%;
+        padding-right: 5%;
     }
 
     /* Visi-misi */
@@ -572,6 +574,13 @@ header nav ul li a:hover, header nav ul li a.active {
         text-align: center;
         padding-left: 60px;
         padding-right: 10px;
+    }
+
+    /* Services */
+    .header-svc {
+        text-align: left;
+        font-size: 3em;
+        padding-left: 40%;
     }
 }
 
