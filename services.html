@@ -80,5 +80,18 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function() {
+            var winScroll = $(this).scrollTop();
+
+            if(winScroll > $('.service').offset().top - 200) {
+                $('.service .row').each(function(i) {
+                    setTimeout(function() {
+                        $('.service .row').eq(i).addClass('muncul');
+                    }, 400 * (i))
+                })
+            }
+        })
+    </script>
 </body>
 </html>
