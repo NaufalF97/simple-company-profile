@@ -552,6 +552,42 @@ header nav ul li a:hover, header nav ul li a.active {
     .home-footer p {
         font-size: 1.5em;
     }
+
+    .background-about {
+        width: 40%;
+        height: 40%;
+        top: 310px;
+    }
+
+    #about-h1 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        padding-top: 215px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 4em;
+    }
+
+    .header-about h3 {
+        font-size: 3em;
+    }
+
+    .header-about p {
+        font-size: 23px;
+    }
+
+    .partner-box .partners p {
+        font-size: 20px;
+    }
+
+    .about-footer,
+    .client-footer,
+    .svc-footer,
+    .visi-footer,
+    .contact-footer {
+        font-size: 1.5em;
+    }
 }
 
 @media(max-width: 1083px) {
