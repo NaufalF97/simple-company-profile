@@ -459,6 +459,7 @@ header nav ul li a:hover, header nav ul li a.active {
 .contact {
     margin-top: 50px;
     margin-bottom: 20px;
+    margin: 50px 100px 20px 100px;
 }
 
 .contact .form h3 {
