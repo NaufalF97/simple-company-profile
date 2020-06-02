@@ -94,7 +94,7 @@
         $(window).scroll(function () {
             var winScroll = $(this).scrollTop();
 
-            if(winScroll > $('.client-box').offset().top - 250) {
+            if(winScroll > $('.client-box').offset().top - 600) {
                 $('.client-box .clients-upper').each(function (i) {
                     setTimeout(function () {
                         $('.client-box .clients-upper').eq(i).addClass('muncul');

@@ -559,7 +559,8 @@ header nav ul li a:hover, header nav ul li a.active {
         top: 310px;
     }
 
-    #about-h1 {
+    #about-h1,
+    .header-client h1 {
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
@@ -569,8 +570,17 @@ header nav ul li a:hover, header nav ul li a.active {
         font-size: 4em;
     }
 
-    .header-about h3 {
+    .header-about h3,
+    .header-client h3 {
         font-size: 3em;
+    }
+
+    .header-client h3 {
+        margin-top: 50px;
+    }
+
+    .header-client p {
+        font-size: 25px;
     }
 
     .header-about p {
@@ -578,6 +588,10 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     .partner-box .partners p {
+        font-size: 20px;
+    }
+
+    .client-box p {
         font-size: 20px;
     }
 
