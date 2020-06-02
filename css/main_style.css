@@ -535,6 +535,25 @@ header nav ul li a:hover, header nav ul li a.active {
 }
 
 /* Media Query */
+@media (min-width: 1919px) {
+    .judul {
+        margin-top: 450px;
+    }
+
+    .judul h1 {
+        margin-bottom: 70px;
+        font-size: 5em;
+    }
+
+    .home-footer {
+        margin-top: 150px;
+    }
+
+    .home-footer p {
+        font-size: 1.5em;
+    }
+}
+
 @media(max-width: 1083px) {
     /* Homepage */
     .homepage-body .background img {
