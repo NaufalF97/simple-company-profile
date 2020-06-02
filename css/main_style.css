@@ -561,7 +561,9 @@ header nav ul li a:hover, header nav ul li a.active {
 
     #about-h1,
     .header-client h1,
-    .header-visi h1 {
+    .header-visi h1,
+    .header-svc,
+    #header-contact {
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
@@ -631,6 +633,52 @@ header nav ul li a:hover, header nav ul li a.active {
 
     .wrap-misi img {
         margin-top: 80px;
+    }
+
+    .header-svc {
+        background-position-y: -250px;
+    }
+
+    .service p {
+        font-size: 20px;
+    }
+
+    #header-contact {
+        background-position-y: -420px;
+    }
+
+    .wrap-form label {
+        font-size: 1.5em;
+    }
+
+    .wrap-form input {
+        height: 3em;
+        line-height: 3em;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .contact .form h3,
+    .contact_us h3 {
+        font-size: 3em;
+    }
+
+    .contact {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 120px;
+    }
+
+    .contact_us {
+        padding-left: 150px !important;
+    }
+
+    .contact_us a {
+        font-size: 18px;
+    }
+
+    .contact_us a:hover {
+        font-size: 19px;
     }
 }
 
