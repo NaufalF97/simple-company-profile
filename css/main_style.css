@@ -560,7 +560,8 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     #about-h1,
-    .header-client h1 {
+    .header-client h1,
+    .header-visi h1 {
         background-size: cover;
         background-repeat: no-repeat;
         height: 300px;
@@ -568,6 +569,10 @@ header nav ul li a:hover, header nav ul li a.active {
         margin-bottom: 0px;
         padding-bottom: 0px;
         font-size: 4em;
+    }
+
+    #about-h1 {
+        background-position-y: -150px;
     }
 
     .header-about h3,
@@ -601,6 +606,31 @@ header nav ul li a:hover, header nav ul li a.active {
     .visi-footer,
     .contact-footer {
         font-size: 1.5em;
+    }
+
+    .header-visi h1 {
+        background-position-y: -200px;
+    }
+
+    .wrap-visi {
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    .wrap-visi h3, .wrap-misi h3 {
+        font-size: 4em;
+    }
+
+    .wrap-visi li {
+        font-size: 2em;
+    }
+
+    .wrap-misi li {
+        font-size: 20px;
+    }
+
+    .wrap-misi img {
+        margin-top: 80px;
     }
 }
 
