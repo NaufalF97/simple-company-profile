@@ -645,7 +645,8 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     #header-contact {
-        background-position-y: -420px;
+        background-position-y: -400px;
+        background-position-x: -90px;
     }
 
     .wrap-form label {
