@@ -575,7 +575,12 @@ header nav ul li a:hover, header nav ul li a.active {
     }
 
     #about-h1 {
-        background-position-y: -150px;
+        background-position-y: -120px;
+        background-position-x: -50px;
+    }
+
+    .header-client h1 {
+        background-position-x: -110px;
     }
 
     .header-about h3,
